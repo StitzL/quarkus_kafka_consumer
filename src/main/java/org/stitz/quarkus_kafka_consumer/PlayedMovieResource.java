@@ -12,7 +12,7 @@ import io.smallrye.mutiny.Multi;
 import org.eclipse.microprofile.reactive.messaging.Incoming;
 import org.jboss.logging.Logger;
 
-@Path("/movies")
+@Path("/moviesplayed")
 public class PlayedMovieResource {
 
     @Inject

@@ -12,4 +12,14 @@ public class Movie {
         this.director = director;
         this.genre = genre;
     }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", director='" + director + '\'' +
+                ", genre='" + genre + '\'' +
+                '}';
+    }
 }
